@@ -23,31 +23,31 @@ final_ab_events_upd_us.csv — all events of the new users within the period fro
 final_ab_participants_upd_us.csv — table containing test participants<br>
 <br>
 Structure of ab_project__marketing_events_us.csv:<br>
-* name — the name of the marketing event
-* regions — regions where the ad campaign will be held
-* start_dt — campaign start date
-* finish_dt — campaign end date
+* name — the name of the marketing event <br>
+* regions — regions where the ad campaign will be held <br>
+* start_dt — campaign start date <br>
+* finish_dt — campaign end date <br>
 <br>
-Structure of final_ab_new_users_upd_us.csv:
-* user_id
-* first_date — sign-up date
-* region
-* device — device used to sign up
+Structure of final_ab_new_users_upd_us.csv:<br>
+* user_id <br>
+* first_date — sign-up date <br>
+* region <br>
+* device — device used to sign up <br>
 <br>
-Structure of final_ab_events_upd_us.csv:
-* user_id
-* event_dt — event date and time
-* event_name — event type name
-* details — additional data on the event (for instance, the order total in USD for purchase events)
+Structure of final_ab_events_upd_us.csv: <br>
+* user_id <br>
+* event_dt — event date and time <br>
+* event_name — event type name <br>
+* details — additional data on the event (for instance, the order total in USD for purchase events) <br>
 <br>
-Structure of final_ab_participants_upd_us.csv:
-* user_id
-* ab_test — test name
-* group — the test group the user belonged to
+Structure of final_ab_participants_upd_us.csv:<br>
+* user_id <br>
+* ab_test — test name <br>
+* group — the test group the user belonged to <br>
 <br>
 Instructions for completing the task:<br>
-1. Describe the goals of the study.
-2. Explore the data:
+1. Describe the goals of the study.<br>
+2. Explore the data:<br>
 Do types need to be converted?
 Are there any missing or duplicate values? If so, how would you characterize them?
 Carry out exploratory data analysis:
@@ -55,8 +55,8 @@ Study conversion at different stages of the funnel.
 Is the number of events per user distributed equally among the samples?
 Are there users who are present in both samples?
 How is the number of events distributed among days?
-Are there any peculiarities in the data that you have to take into account before starting the A/B test?
-3. Evaluate the A/B test results:
+Are there any peculiarities in the data that you have to take into account before starting the A/B test?<br>
+3. Evaluate the A/B test results:<br>
 What can you say about the A/B test results?
 Use a z-test to check the statistical difference between the proportions.
 Describe your conclusions regarding the EDA stage and the A/B test results.
